@@ -1,0 +1,10 @@
+# Scanner
+
+package paczko;
+
+import java.util.Scanner;
+
+public class main {
+	Scanner input = new Scanner(System.in);
+
+}
