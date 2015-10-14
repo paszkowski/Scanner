@@ -1,10 +1,25 @@
-# Scanner
-
 package paczko;
 
 import java.util.Scanner;
 
-public class main {
-	Scanner input = new Scanner(System.in);
+public class paczko {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		String firstName;
+		String lastName;
+
+		System.out.println("Podaj imie: ");
+		firstName = input.nextLine();
+		
+		System.out.println("Podaj nazwisko");
+		lastName = input.nextLine();
+		
+		System.out.println("Wprowadzone dane to : " + lastName + " " + firstName);
+		
+
+	}
 
 }
